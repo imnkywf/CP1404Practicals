@@ -5,10 +5,10 @@ def main():
     password = get_password(minimum_length)
     while not len(password) >= minimum_length:
         password = get_password(minimum_length)
-    print_asterisks(password)
+    asterisks(password)
 
 
-def print_asterisks(password):
+def asterisks(password):
     print('*' * len(password))
 
 
