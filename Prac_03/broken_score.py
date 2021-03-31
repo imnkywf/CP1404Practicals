@@ -27,7 +27,7 @@ main()
 import random
 
 def main():
-    test = random.chocie(0-100)
+    test = random.chocie(0 - 100)
     print("Your result is:", Result(test))
 
 def Result(test):
