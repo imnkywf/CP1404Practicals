@@ -1,14 +1,20 @@
-# CONSTANTS
+#CONSTANTS
+minimum_length = 6
 
 def main():
-    # statements...
-    # variables...
-    do_stuff()
+    password = get_password(minimum_length)
+    while not len(password) >= minimum_length:
+        password = get_password(minimum_length)
+    print_asterisks(password)
 
 
-def do_stuff():
+def print_asterisks(password):
+    print('*' * len(password))
 
 
-# statements...
+def get_password(minimum):
+    password = input('Please enter a password of at least {} characters: '.format(minimum))
+    return password
+
 
 main()
