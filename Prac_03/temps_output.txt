@@ -1,0 +1,15 @@
+Degrees in celsius is: 42.22222222222222
+Degrees in celsius is: -121.66666666666667
+Degrees in celsius is: -113.33333333333334
+Degrees in celsius is: -94.44444444444444
+Degrees in celsius is: 63.88888888888889
+Degrees in celsius is: -78.33333333333334
+Degrees in celsius is: 77.77777777777779
+Degrees in celsius is: -4.444444444444445
+Degrees in celsius is: -95.0
+Degrees in celsius is: -31.666666666666668
+Degrees in celsius is: 28.333333333333336
+Degrees in celsius is: -32.77777777777778
+Degrees in celsius is: -48.88888888888889
+Degrees in celsius is: -53.88888888888889
+Degrees in celsius is: -78.88888888888889

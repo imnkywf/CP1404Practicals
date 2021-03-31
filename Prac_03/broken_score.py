@@ -1,9 +1,9 @@
 import random
 
 def main():
+    out_file = open("results.txt", "w")
     score = random.randint(0, 100)
-    print("Your score is {}".format(score))
-    print("Your result is:", result(score))
+    print("Your score is {}".format(score),"your result is:", result(score), file=out_file)
 
 
 def result(score):
