@@ -3,7 +3,9 @@ MAX_LENGTH = 6
 SPECIAL_CHARS_REQUIRED = False
 SPECIAL_CHARACTERS = "!@#$%^&*()_-=+`~,./'[]<>?{}|\\"
 
+
 def main():
+    """Program to get and check a user's password."""
     print("Please enter a valid password")
     print("Your password must be between", MIN_LENGTH, "and", MAX_LENGTH,
           "characters, and contain:")
@@ -13,14 +15,14 @@ def main():
     if SPECIAL_CHARS_REQUIRED:
         print("\tand 1 or more special characters: ", SPECIAL_CHARACTERS)
     password = input("> ")
-    while not do_stuff(password):
+    while not is_valid_password(password):
         print("Invalid password!")
         password = input("> ")
     print("Your {}-character password is valid: {}".format(len(password),password))
 
 
-
-def do_stuff(password):
+def is_valid_password(password):
+    """Determine if the provided password is valid."""
     if len(password) < MIN_LENGTH or len(password) > MAX_LENGTH:
         return False
 
