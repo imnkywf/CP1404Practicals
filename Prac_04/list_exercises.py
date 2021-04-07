@@ -10,9 +10,12 @@ def main():
     else:
         print("Access denied.")
 
-    for number in range(5):
-        number = int(input("Number: "))
-        numbers.append(number)
+    for number in range(1,6):
+        number_1 = int(input("Number {} :".format(number)))
+        while number_1 < 0:
+            number_1 = int(input("Number {} :".format(number)))
+
+    numbers.append(number_1)
 
     print("The first number is {}".format(numbers[0]))
     print("The last number is {}".format(numbers[-1]))
