@@ -1,6 +1,4 @@
 
-
-
 def main():
     lower = 10
     upper = 50
